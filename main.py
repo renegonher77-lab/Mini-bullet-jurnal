@@ -43,7 +43,7 @@ with col1:
     st.caption("Si el polígono es irregular, hay deuda en esa área.")
 
 with col2:
-    [cite_start]st.subheader("Pipeline Musical: Doble Check [cite: 139]")
+    st.subheader("Pipeline Musical: Doble Check")
     # Tabla interactiva para tus 100+ canciones
     data = {
         "Canción": ["Ejemplo: Lamento Triste", "Ejemplo: Deuda Incobrable"],
