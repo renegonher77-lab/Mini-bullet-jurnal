@@ -40,7 +40,7 @@ col1, col2 = st.columns([1, 1])
 with col1:
     st.subheader("Gráfico de Desempeño Semanal")
     st.plotly_chart(generar_radar(), use_container_width=True)
-    [cite_start]st.caption("Si el polígono es irregular, hay 'deuda' en esa área. [cite: 122, 239]")
+    st.caption("Si el polígono es irregular, hay deuda en esa área.")
 
 with col2:
     [cite_start]st.subheader("Pipeline Musical: Doble Check [cite: 139]")
